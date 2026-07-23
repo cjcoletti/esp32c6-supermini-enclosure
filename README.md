@@ -1,10 +1,40 @@
 # Enclosure — ESP32-C6 Super Mini + mini fonte
 
-Caixa compacta para o Matter switch (ESP32-C6 Super Mini + Mini fonte da Hilink).
+[![Português](https://img.shields.io/badge/Language-Português-blue)](README.md)[![English](https://img.shields.io/badge/_English-inactive)](README.en.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+Caixa compacta para o Matter switch (ESP32-C6 Super Mini + mini fonte Hilink).
 
 ![Caixa 3D impressa — base e tampa](case-matter-switch.png)
 
 > Modelo paramétrico **V16.3** — placas dispostas lado a lado, trilhos de encaixe por pressão, furo Ø8 centralizado no vão e furo para a USB-C para deploy/debug da ESP32 via JTAG.
+
+## Sobre este projeto
+
+**ESP32-C6 Super Mini Enclosure** é um projeto **pessoal e de código aberto**, criado como **contribuição à comunidade** de desenvolvedores Matter/ESP32.
+
+- Funciona em ambiente de laboratório e pode ser **reutilizado, estudado e adaptado** livremente.
+- **Não é um produto comercial** — não há suporte oficial, garantia ou certificação de segurança elétrica.
+- Compatível com o firmware [Magic Button (esp32-sw-matter-ota)](https://github.com/cjcoletti/esp32-sw-matter-ota), mas pode ser usado com outras montagens similares.
+
+**Status:** modelo **V16.3** testado em impressão 3D (PLA/PETG) com ESP32-C6 Super Mini e mini fonte Hilink.
+
+## Estrutura
+
+```text
+esp32c6-supermini-enclosure/
+├── README.md
+├── README.en.md
+├── CONTRIBUTING.md
+├── CONTRIBUTING.en.md
+├── SECURITY.md
+├── LICENSE
+├── case.scad
+├── base.stl
+├── tampa.stl
+└── case-matter-switch.png
+```
 
 ## Arquivos
 
@@ -88,3 +118,23 @@ Abra `case.scad` no OpenSCAD:
 2. `visualizar_tampa = true` → renderizar e exportar **tampa**
 
 **File → Export → Export as STL** (`base.stl` / `tampa.stl`).
+
+## Contribuições
+
+Este projeto é mantido de forma pessoal. **Sugestões e ideias são bem-vindas** via [Issues](https://github.com/cjcoletti/esp32c6-supermini-enclosure/issues/new/choose)
+(ou Discussions). Por favor, **não envie Pull Requests** — prefiro implementar mudanças
+eu mesmo, no meu ritmo. Você pode fazer fork livremente sob a licença MIT.
+
+Detalhes em [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Segurança
+
+Para reportar vulnerabilidades em privado, veja [SECURITY.md](SECURITY.md) (em inglês).
+
+## Licença
+
+Licenciado sob a [MIT License](LICENSE).
+
+## Aviso legal
+
+Este software é fornecido **"como está"**, sem garantias de qualquer tipo. O autor não se responsabiliza por danos decorrentes do uso. Matter® é marca da Connectivity Standards Alliance; este projeto não é afiliado à CSA nem à Espressif.
