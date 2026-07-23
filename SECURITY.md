@@ -2,11 +2,9 @@
 
 ## Supported versions
 
-
 | Version | Supported |
 | ------- | --------- |
-| 16.x    | Yes       |
-
+| 1.0.x   | Yes       |
 
 Older versions are not maintained.
 
@@ -28,10 +26,8 @@ Use [Report a vulnerability](https://github.com/cjcoletti/esp32c6-supermini-encl
 
 - Description of the issue and potential impact
 - Steps to reproduce, if applicable
-- Affected version (e.g. `v1.0.0` or model `V16.3`)
+- Affected release (e.g. `v1.0.0`) and, if known, parametric model (e.g. `V16.3`)
 - Your environment (printer, slicer, board/PSU variant) when relevant
-
-
 
 ## Response expectations
 

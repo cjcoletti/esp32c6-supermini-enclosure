@@ -42,8 +42,8 @@ body:
     id: environment
     attributes:
       label: Ambiente
-      description: Hardware, impressora, filamento e versão do modelo, se relevante.
-      placeholder: "Ex.: ESP32-C6 Super Mini, mini fonte Hilink, Bambu A1, PLA, modelo V16.3"
+      description: Hardware, impressora, filamento, release e versão do modelo, se relevante.
+      placeholder: "Ex.: release v1.0.0, modelo V16.3, ESP32-C6 Super Mini, Bambu A1, PLA"
     validations:
       required: true
 

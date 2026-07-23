@@ -18,7 +18,12 @@ Compact case for the Matter switch (ESP32-C6 Super Mini + Hilink mini PSU).
 - **Not a commercial product** — no official support, warranty, or electrical safety certification.
 - Compatible with the [Magic Button (esp32-sw-matter-ota)](https://github.com/cjcoletti/esp32-sw-matter-ota) firmware, but usable with similar builds.
 
-**Status:** model **V16.3** tested in 3D printing (PLA/PETG) with ESP32-C6 Super Mini and Hilink mini PSU.
+**Status:** release **v1.0.0** (parametric model **V16.3**) tested in 3D printing (PLA/PETG) with ESP32-C6 Super Mini and Hilink mini PSU.
+
+| Field | Value |
+| ----- | ----- |
+| Release | `v1.0.0` |
+| Parametric model (OpenSCAD) | `V16.3` |
 
 ## Structure
 
@@ -30,6 +35,7 @@ esp32c6-supermini-enclosure/
 ├── CONTRIBUTING.en.md
 ├── SECURITY.md
 ├── LICENSE
+├── .github/             # Issue templates and release notes
 ├── case.scad
 ├── base.stl
 ├── tampa.stl

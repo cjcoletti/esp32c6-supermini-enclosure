@@ -18,7 +18,12 @@ Caixa compacta para o Matter switch (ESP32-C6 Super Mini + mini fonte Hilink).
 - **Não é um produto comercial** — não há suporte oficial, garantia ou certificação de segurança elétrica.
 - Compatível com o firmware [Magic Button (esp32-sw-matter-ota)](https://github.com/cjcoletti/esp32-sw-matter-ota), mas pode ser usado com outras montagens similares.
 
-**Status:** modelo **V16.3** testado em impressão 3D (PLA/PETG) com ESP32-C6 Super Mini e mini fonte Hilink.
+**Status:** release **v1.0.0** (modelo paramétrico **V16.3**) testado em impressão 3D (PLA/PETG) com ESP32-C6 Super Mini e mini fonte Hilink.
+
+| Campo | Valor |
+| ----- | ----- |
+| Release | `v1.0.0` |
+| Modelo paramétrico (OpenSCAD) | `V16.3` |
 
 ## Estrutura
 
@@ -30,6 +35,7 @@ esp32c6-supermini-enclosure/
 ├── CONTRIBUTING.en.md
 ├── SECURITY.md
 ├── LICENSE
+├── .github/             # templates de Issues e release notes
 ├── case.scad
 ├── base.stl
 ├── tampa.stl
