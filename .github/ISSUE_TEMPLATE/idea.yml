@@ -1,0 +1,38 @@
+name: Ideia ou sugestão
+description: Proponha uma melhoria, funcionalidade ou caso de uso
+title: "[Ideia] "
+labels:
+  - idea
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por compartilhar sua ideia! Descreva em texto — não é necessário enviar código ou Pull Request.
+        Detalhes em [CONTRIBUTING.md](https://github.com/cjcoletti/esp32c6-supermini-enclosure/blob/main/CONTRIBUTING.md).
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto
+      description: Qual problema ou oportunidade você identificou?
+      placeholder: "Ex.: O encaixe da ESP fica apertado com filamento PETG..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposta
+      description: O que você sugere? Como imagina que funcionaria?
+      placeholder: "Ex.: Aumentar a folga dos trilhos em 0,1 mm ou adicionar abertura lateral para botão..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware / ambiente (opcional)
+      description: Placa, fonte, impressora, filamento, etc.
+      placeholder: "Ex.: ESP32-C6 Super Mini, mini fonte Hilink, Ender 3, PETG"
+    validations:
+      required: false
