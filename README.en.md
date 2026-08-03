@@ -2,7 +2,7 @@
 
 [![Português](https://img.shields.io/badge/Language-Português-inactive)](README.md)[![English](https://img.shields.io/badge/_English-blue)](README.en.md)
 
-[![License: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/License-PolyForm%20Noncommercial-blue.svg)](LICENSE)
+[![License: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/License-PolyForm%20Noncommercial-yellow.svg)](LICENSE)
 
 Compact case for the Matter switch (ESP32-C6 Super Mini + Hilink mini PSU).
 

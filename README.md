@@ -2,7 +2,7 @@
 
 [![Português](https://img.shields.io/badge/Language-Português-blue)](README.md)[![English](https://img.shields.io/badge/_English-inactive)](README.en.md)
 
-[![License: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/License-PolyForm%20Noncommercial-blue.svg)](LICENSE)
+[![License: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/License-PolyForm%20Noncommercial-yellow.svg)](LICENSE)
 
 Caixa compacta para o Matter switch (ESP32-C6 Super Mini + mini fonte Hilink).
 
