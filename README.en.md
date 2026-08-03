@@ -87,7 +87,7 @@ Top view (lid removed):
 ```
 
 - **PSU (left):** side rails with **15 mm** internal clearance; snap-fit guide to the bottom (guide height **4 mm**).
-- **ESP (right):** rails with **18 mm** internal clearance; full board depth (**25.3 mm** with clearance).
+- **ESP (right):** rails with **18 mm** internal clearance; full board depth (**25.3 mm** with clearance); **rear stop** between the rails (**1.5 × 6 mm**, thickness × height) so the board cannot slide into the gap behind it.
 - **Center gap:** **2 mm** between rails (pins / headers).
 - **Rails:** **1.5 mm** tabs on each side; the board slides between them until seated on the bottom.
 

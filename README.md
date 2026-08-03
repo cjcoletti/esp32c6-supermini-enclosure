@@ -87,7 +87,7 @@ Vista superior (tampa removida):
 ```
 
 - **Fonte (esquerda):** trilhos laterais com vão interno de **15 mm**; guia por pressão até o fundo (altura do guia **4 mm**).
-- **ESP (direita):** trilhos com vão interno de **18 mm**; profundidade total da placa (**25,3 mm** com folga).
+- **ESP (direita):** trilhos com vão interno de **18 mm**; profundidade total da placa (**25,3 mm** com folga); **batente traseiro** entre os trilhos (**1,5 × 6 mm**, espessura × altura) para impedir a placa de escorregar para o vão atrás.
 - **Vão central:** **2 mm** entre os trilhos (pinos / headers).
 - **Trilhos:** abas de **1,5 mm** de cada lado; a placa desliza entre elas até assentar no fundo.
 
