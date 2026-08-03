@@ -33,7 +33,7 @@ Exception: if you find a clear typo in the documentation (`README`, etc.), you m
 
 ## Forks
 
-You are free to **fork** and adapt the project to your needs, under the [MIT license](LICENSE). If you publish an interesting variant, feel free to mention it in an Issue or Discussion — I am happy to hear how others are using the project.
+You may **fork** and adapt the project for **noncommercial** use (hobby, study, lab) under the [PolyForm Noncommercial License](LICENSE). Commercial use requires the author's permission. If you publish an interesting variant, feel free to mention it in an Issue or Discussion — I am happy to hear how others are using the project.
 
 ## Expectations
 

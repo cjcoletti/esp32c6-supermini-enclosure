@@ -33,7 +33,7 @@ Exceção: se encontrar um erro claro de digitação na documentação (`README`
 
 ## Forks
 
-Você pode fazer **fork** livremente e adaptar o projeto às suas necessidades, conforme a [licença MIT](LICENSE). Se publicar uma variante interessante, fique à vontade para mencionar na Issue ou Discussion — fico feliz em saber como outros estão usando o projeto.
+Você pode fazer **fork** e adaptar o projeto para uso **não comercial** (hobby, estudo, lab), conforme a [PolyForm Noncommercial License](LICENSE). Uso comercial requer autorização do autor. Se publicar uma variante interessante, fique à vontade para mencionar na Issue ou Discussion — fico feliz em saber como outros estão usando o projeto.
 
 ## Expectativas
 

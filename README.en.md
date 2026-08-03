@@ -2,7 +2,7 @@
 
 [![Português](https://img.shields.io/badge/Language-Português-inactive)](README.md)[![English](https://img.shields.io/badge/_English-blue)](README.en.md)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/License-PolyForm%20Noncommercial-blue.svg)](LICENSE)
 
 Compact case for the Matter switch (ESP32-C6 Super Mini + Hilink mini PSU).
 
@@ -129,7 +129,7 @@ Open `case.scad` in OpenSCAD:
 
 This project is maintained personally. **Suggestions and ideas are welcome** via [Issues](https://github.com/cjcoletti/esp32c6-supermini-enclosure/issues/new/choose)
 (or Discussions). Please **do not send Pull Requests** — I prefer to implement changes
-myself, at my own pace. You are free to fork under the MIT license.
+myself, at my own pace. You may fork for **noncommercial** use (hobby, study, lab) under the PolyForm Noncommercial license.
 
 See [CONTRIBUTING.en.md](CONTRIBUTING.en.md) for details.
 
@@ -139,7 +139,9 @@ See [SECURITY.md](SECURITY.md) to report vulnerabilities privately.
 
 ## License
 
-Licensed under the [MIT License](LICENSE).
+Licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE). Applies to the **entire repository**, including release `v1.0.0` and future versions (relicensed from MIT in August 2026).
+
+Permitted for **noncommercial** purposes (hobby, study, lab, nonprofit organizations). **Commercial** use (selling products, paid services, etc.) is **not** allowed without the author's permission.
 
 ## Legal notice
 
