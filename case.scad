@@ -140,6 +140,16 @@ module caixa_base() {
     // TRILHO DA ESP32: Mantido na profundidade total de sua placa
     translate([esp_X, espessura_parede, espessura_parede]) 
         trilhos_guia_lateral(espaco_trilho_esp, esp_profundo, 4.0);
+
+    // Batente traseiro da ESP: impede a placa de escorregar para o vão atrás
+    batente_esp_espessura = 1.5;
+    batente_esp_altura = 6.0;
+    translate([
+        esp_X + aba_trilho,
+        espessura_parede + esp_profundo,
+        espessura_parede
+    ])
+    cube([espaco_trilho_esp, batente_esp_espessura, batente_esp_altura]);
 }
 
 module furo_usbc_perfil(largura, altura, profundidade) {
