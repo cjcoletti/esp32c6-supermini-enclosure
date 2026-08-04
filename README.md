@@ -8,7 +8,7 @@ Caixa compacta para o Matter switch (ESP32-C6 Super Mini + mini fonte Hilink).
 
 ![Caixa 3D impressa — base e tampa](case-matter-switch.png)
 
-> Modelo paramétrico **V16.3** — placas dispostas lado a lado, trilhos de encaixe por pressão, furo Ø8 centralizado no vão e furo para a USB-C para deploy/debug da ESP32 via JTAG.
+> Modelo paramétrico **V16.4** — placas dispostas lado a lado, trilhos de encaixe por pressão, furo Ø8 centralizado no vão e furo para a USB-C para deploy/debug da ESP32 via JTAG.
 
 ## Sobre este projeto
 
@@ -18,12 +18,12 @@ Caixa compacta para o Matter switch (ESP32-C6 Super Mini + mini fonte Hilink).
 - **Não é um produto comercial** — não há suporte oficial, garantia ou certificação de segurança elétrica.
 - Compatível com o firmware [Magic Button (esp32-sw-matter-ota)](https://github.com/cjcoletti/esp32-sw-matter-ota), mas pode ser usado com outras montagens similares.
 
-**Status:** release **v1.0.0** (modelo paramétrico **V16.3**) testado em impressão 3D (PLA/PETG) com ESP32-C6 Super Mini e mini fonte Hilink.
+**Status:** release **v1.0.0** (modelo paramétrico **V16.4**) testado em impressão 3D (PLA/PETG) com ESP32-C6 Super Mini e mini fonte Hilink.
 
 | Campo | Valor |
 | ----- | ----- |
 | Release | `v1.0.0` |
-| Modelo paramétrico (OpenSCAD) | `V16.3` |
+| Modelo paramétrico (OpenSCAD) | `V16.4` |
 
 ## Estrutura
 
@@ -66,7 +66,7 @@ Paredes **2 mm**; cantos externos arredondados (**r = 3 mm**).
 | Módulo | Dimensões (mm) | Orientação |
 |--------|----------------|------------|
 | Fonte | 20 × 34 × (15 + 5) (largura × profundidade × altura (fonte + pinos)) | Deitada |
-| ESP32-C6 | 18 × 25 × 20 (largura × profundidade × altura) | Em pé |
+| ESP32-C6 | 18 × 26 × 20 (largura × profundidade × altura) | Em pé |
 
 Folga de encaixe no CAD: **0,3 mm** (`folga_encaixe`).
 
@@ -87,7 +87,7 @@ Vista superior (tampa removida):
 ```
 
 - **Fonte (esquerda):** trilhos laterais com vão interno de **15 mm**; guia por pressão até o fundo (altura do guia **4 mm**).
-- **ESP (direita):** trilhos com vão interno de **18 mm**; profundidade total da placa (**25,3 mm** com folga); **batente traseiro** entre os trilhos (**1,5 × 6 mm**, espessura × altura) para impedir a placa de escorregar para o vão atrás.
+- **ESP (direita):** trilhos com vão interno de **18 mm**; profundidade total da placa (**26,3 mm** com folga); **batente traseiro** entre os trilhos (**1,5 × 6 mm**, espessura × altura) para impedir a placa de escorregar para o vão atrás.
 - **Vão central:** **2 mm** entre os trilhos (pinos / headers).
 - **Trilhos:** abas de **1,5 mm** de cada lado; a placa desliza entre elas até assentar no fundo.
 

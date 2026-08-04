@@ -1,5 +1,5 @@
 // =======================================================
-// ENCLOSURE ULTRA-COMPACTA V16.3 - FURO 8MM CENTRALIZADO OK
+// ENCLOSURE ULTRA-COMPACTA V16.4 - FURO 8MM CENTRALIZADO OK
 // =======================================================
 
 $fn = 64; // Alta resolução para furos e encaixes
@@ -19,7 +19,7 @@ fonte_altura = 20.0 + folga_encaixe; // Altura em pé: 20.3 mm
 esp_altura = 18.0 + folga_encaixe;   // Altura em pé: 18.3 mm
 
 fonte_profundo = 34.0 + folga_encaixe; // 34.3 mm
-esp_profundo = 25.0 + folga_encaixe;  // 25.3 mm
+esp_profundo = 26.0 + folga_encaixe;  // 26.3 mm
 
 // --- CÁLCULO DE LARGURA DOS TRILHOS NA BASE ---
 aba_trilho = 1.5; // Espessura da parede do trilho

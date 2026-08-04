@@ -8,7 +8,7 @@ Compact case for the Matter switch (ESP32-C6 Super Mini + Hilink mini PSU).
 
 ![3D-printed case — base and lid](case-matter-switch.png)
 
-> Parametric model **V16.3** — boards side by side, snap-fit rails, Ø8 hole centered in the gap, and USB-C opening for ESP32 deploy/debug via JTAG.
+> Parametric model **V16.4** — boards side by side, snap-fit rails, Ø8 hole centered in the gap, and USB-C opening for ESP32 deploy/debug via JTAG.
 
 ## About this project
 
@@ -18,12 +18,12 @@ Compact case for the Matter switch (ESP32-C6 Super Mini + Hilink mini PSU).
 - **Not a commercial product** — no official support, warranty, or electrical safety certification.
 - Compatible with the [Magic Button (esp32-sw-matter-ota)](https://github.com/cjcoletti/esp32-sw-matter-ota) firmware, but usable with similar builds.
 
-**Status:** release **v1.0.0** (parametric model **V16.3**) tested in 3D printing (PLA/PETG) with ESP32-C6 Super Mini and Hilink mini PSU.
+**Status:** release **v1.0.0** (parametric model **V16.4**) tested in 3D printing (PLA/PETG) with ESP32-C6 Super Mini and Hilink mini PSU.
 
 | Field | Value |
 | ----- | ----- |
 | Release | `v1.0.0` |
-| Parametric model (OpenSCAD) | `V16.3` |
+| Parametric model (OpenSCAD) | `V16.4` |
 
 ## Structure
 
@@ -66,7 +66,7 @@ esp32c6-supermini-enclosure/
 | Module | Dimensions (mm) | Orientation |
 |--------|-----------------|-------------|
 | PSU | 20 × 34 × (15 + 5) (width × depth × height (PSU + pins)) | Flat |
-| ESP32-C6 | 18 × 25 × 20 (width × depth × height) | Upright |
+| ESP32-C6 | 18 × 26 × 20 (width × depth × height) | Upright |
 
 Fit clearance in CAD: **0.3 mm** (`folga_encaixe`).
 
@@ -87,7 +87,7 @@ Top view (lid removed):
 ```
 
 - **PSU (left):** side rails with **15 mm** internal clearance; snap-fit guide to the bottom (guide height **4 mm**).
-- **ESP (right):** rails with **18 mm** internal clearance; full board depth (**25.3 mm** with clearance); **rear stop** between the rails (**1.5 × 6 mm**, thickness × height) so the board cannot slide into the gap behind it.
+- **ESP (right):** rails with **18 mm** internal clearance; full board depth (**26.3 mm** with clearance); **rear stop** between the rails (**1.5 × 6 mm**, thickness × height) so the board cannot slide into the gap behind it.
 - **Center gap:** **2 mm** between rails (pins / headers).
 - **Rails:** **1.5 mm** tabs on each side; the board slides between them until seated on the bottom.
 
